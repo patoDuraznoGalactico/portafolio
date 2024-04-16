@@ -57,9 +57,13 @@ h1{
   height: 100%;
   background: linear-gradient(rgb(12, 89, 185) 1%, rgb(19, 158, 233) 6%, rgb(24, 181, 242) 10%, rgb(19, 155, 235) 14%, rgb(18, 144, 232) 19%, rgb(13, 141, 234) 63%, rgb(13, 159, 241) 81%, rgb(15, 158, 237) 88%, rgb(17, 155, 233) 91%, rgb(19, 146, 226) 94%, rgb(19, 126, 215) 97%, rgb(9, 91, 201) 100%);
   border-left: 1px solid rgb(16, 66, 175);
-  box-shadow: rgb(24, 187, 255) 1px 0px 1px inset;}
+  box-shadow: rgb(24, 187, 255) 1px 0px 1px inset;
+  display: flex;
+  justify-content: center;
+
+}
 #start{
-  width: 100%;
+  width: 100%;  
   height: 117%;
   background-image: url(img/Diseño_sin_título-removebg-preview.png);
   background-repeat: no-repeat;
@@ -70,7 +74,6 @@ h1{
 #start:hover{
   background-image: url(img/Diseño_sin_título_1_-removebg-preview.png);
 }
-
 
 
 /* ---------------------- */
