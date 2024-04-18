@@ -1,0 +1,136 @@
+*{
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  margin: 0;
+}
+#background{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1000;
+  object-fit: cover;
+}
+
+body{
+  overflow: none;
+}
+
+/* ---------------Ventana 1------------- */
+
+.contenedor{
+  width: 800px; 
+  height: 600px;
+  overflow: auto; 
+  cursor: grab; 
+  display: flex;
+  position: absolute;
+  padding: 3px;
+  background-color: rgb(8, 49, 217);
+  flex-direction: column;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.header_window{
+  height: 0;
+}
+
+.buttons_window{
+  height: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color:white;
+} 
+#img_header_window_1{
+  margin: 5px;
+  width: auto;
+}
+
+#title_window_1{
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  width: 83%;
+  height: 100%;
+}
+#buttons_window_1{
+  height: 100%;
+  width: 110px;
+  background-color: rgb(148, 169, 207);
+}
+
+.content_window{
+  height: 95%;
+  background-color: #ede9d1;
+}
+
+
+
+
+/* ---------------------------- */
+
+
+/* ------------------Taskbar ------------*/
+
+
+#taskbar{
+  width: 100%;
+  height: 2.5rem;
+  background: linear-gradient(rgb(31, 47, 134) 0px, rgb(49, 101, 196) 3%, rgb(54, 130, 229) 6%, rgb(68, 144, 230) 10%, rgb(56, 131, 229) 12%, rgb(43, 113, 224) 15%, rgb(38, 99, 218) 18%, rgb(35, 91, 214) 20%, rgb(34, 88, 213) 23%, rgb(33, 87, 214) 38%, rgb(36, 93, 219) 54%, rgb(37, 98, 223) 86%, rgb(36, 95, 220) 89%, rgb(33, 88, 212) 92%, rgb(29, 78, 192) 95%, rgb(25, 65, 165) 98%);
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+#taskbar-start{
+  width: 180px;
+  height: 100%;
+  display: flex;
+}
+#taskbar-aplications{
+  width: 100%;
+  height: 70%;
+ /*  background-color: rgb(83, 163, 255);
+  box-shadow: rgba(0, 0, 0, 0.3) -1px 0px inset, rgba(255, 255, 255, 0.2) 1px 1px 1px inset;
+ */}
+#taskbar-icons{
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(rgb(12, 89, 185) 1%, rgb(19, 158, 233) 6%, rgb(24, 181, 242) 10%, rgb(19, 155, 235) 14%, rgb(18, 144, 232) 19%, rgb(13, 141, 234) 63%, rgb(13, 159, 241) 81%, rgb(15, 158, 237) 88%, rgb(17, 155, 233) 91%, rgb(19, 146, 226) 94%, rgb(19, 126, 215) 97%, rgb(9, 91, 201) 100%);
+  border-left: 1px solid rgb(16, 66, 175);
+  box-shadow: rgb(24, 187, 255) 1px 0px 1px inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#taskbar-icons img{
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+#current_time{
+  margin-top: 5px;
+  margin-left: 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+#start{
+  width: 100%;  
+  height: 117%;
+  background-image: url(img/Diseño_sin_título-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: -3px;
+  background-size: contain;
+}
+#start:hover{
+  background-image: url(img/Diseño_sin_título_1_-removebg-preview.png);
+}
+
+
+/* ---------------------- */
